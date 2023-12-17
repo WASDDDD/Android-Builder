@@ -10,7 +10,7 @@ on:
 
 jobs:
   Read-configuration:
-    name: 🐂 Parse *.config.json
+    name: InfiniR_umi.config.json
     runs-on: ubuntu-latest
     outputs:
       CONFIGS: ${{ steps.generate-matrix.outputs.CONFIGS }}
